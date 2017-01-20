@@ -1466,7 +1466,7 @@ let activity_align_items_baseline_test = () => getViews(
     `<FlexboxLayout id="flexbox" width="100%" height="100%" flexDirection="${FlexDirection.ROW}" flexWrap="${FlexWrap.WRAP}" alignItems="${AlignItems.BASELINE}" backgroundColor="gray">
         <Label id="text1" width="30" height="80" text="1" verticalAlignment="bottom" backgroundColor="red" />
         <Label id="text2" width="30" height="80" text="2" verticalAlignment="top" backgroundColor="green" />
-        <Label id="text3" width="30" height="80" text="2" verticalAlignment="center" backgroundColor="blue" />
+        <Label id="text3" width="30" height="80" text="2" verticalAlignment="middle" backgroundColor="blue" />
     </FlexboxLayout>`
 );
 
